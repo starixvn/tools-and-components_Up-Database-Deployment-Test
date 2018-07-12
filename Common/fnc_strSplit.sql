@@ -1,4 +1,4 @@
-/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0"></info>*/
+/*<info serverAlias="NexOps-Up_DeploymentTest" selecters="bodbAdminNet" viewers="vnteam" isFunction="1" isNested="1"></info>*/
 CREATE function  [dbo].[fnc_strSplit] ( @string nvarchar( 4000), @splitter char( 1) )
 returns @res table ( id int primary key, rank int, val nvarchar( 4000) )
 as

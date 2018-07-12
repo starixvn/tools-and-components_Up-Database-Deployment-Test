@@ -1,4 +1,4 @@
-/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0"></info>*/
+/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="1"></info>*/
 CREATE PROCEDURE [dbo].[SpmLog_Insert]
 	@UserId INT, 
 	@SpName VARCHAR(50), 
