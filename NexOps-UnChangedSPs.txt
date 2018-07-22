@@ -1,0 +1,2 @@
+Log\SpmLog_Insert.sql
+Common\[dbo].[fncGetDataForWriteLog].sql
