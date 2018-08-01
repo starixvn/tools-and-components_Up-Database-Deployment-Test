@@ -322,9 +322,3 @@ BEGIN
 	END
 	RETURN @Data
 END
-
-
-
-GO
-
-
