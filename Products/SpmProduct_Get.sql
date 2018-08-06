@@ -1,4 +1,4 @@
-/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="0"></info>*/
+/*<info serverAlias="NexOps" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="0"></info>*/
 CREATE PROCEDURE [dbo].[SpmProduct_Get]
     @SystemId INT = NULL
     ,@FunctionId INT = NULL
