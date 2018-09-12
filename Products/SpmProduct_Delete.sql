@@ -7,14 +7,11 @@ CREATE PROCEDURE [dbo].[SpmProduct_Delete]
 	,@ErrMsg NVARCHAR(200) = '' OUTPUT
 AS
 /*
-Created: 20150408@Tim.Trinh
-Task: Delete product. 
-DB: SPM
 Original: 
 
 Revisions:  
+	- 20180911@Vivian: test
 Param's Explanation:
-
 */
 BEGIN
     SET NOCOUNT ON;

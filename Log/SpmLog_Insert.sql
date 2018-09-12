@@ -9,14 +9,14 @@ CREATE PROCEDURE [dbo].[SpmLog_Insert]
 	@ObjectIds VARCHAR(200) = ''
 AS
 /*
-Created: 20150213@Quinn.Vo
-Task: Insert log detail.
+Created: 20150420@Quinn.Vo
+Task: Insert stored procedure function.
 DB: SPM
 Original: 
 
 Revisions:  
+	- 20180911@Vivian: test
 Param's Explanation:
-
 */
 BEGIN
 	SET NOCOUNT ON;

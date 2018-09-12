@@ -6,6 +6,19 @@ CREATE FUNCTION [dbo].[fncGetDataForWriteLog]
 )
 RETURNS VARCHAR(MAX)
 AS
+/*
+Created: 20150420@Quinn.Vo
+Task: Insert stored procedure function.
+DB: SPM
+Original: 
+
+Revisions:  
+	- 20180912@Vivian: test
+Param's Explanation:
+- @Functions: <ROOT>
+					<Function FunctionId="1" SystemId="1" ProductId="1"><Function/>
+			  </ROOT>
+*/
 BEGIN
     DECLARE @Data VARCHAR(MAX), @Tags VARCHAR(500), @EnvironmentIdsOld VARCHAR(50), @NestedSp VARCHAR(MAX)
 	SELECT @Tags = '', @NestedSp ='', @EnvironmentIdsOld = ''

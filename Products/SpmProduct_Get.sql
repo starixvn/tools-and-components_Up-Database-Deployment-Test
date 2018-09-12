@@ -5,14 +5,14 @@ CREATE PROCEDURE [dbo].[SpmProduct_Get]
     ,@IsActive BIT = NULL
 AS
 /*
-Created: 20150407@Tim.Trinh
-Task: Get Product info from SPM.
+Created: 20150420@Quinn.Vo
+Task: Insert stored procedure function.
 DB: SPM
 Original: 
 
 Revisions:  
+	- 20180911@Vivian: test
 Param's Explanation:
-
 */
 BEGIN
 	SET NOCOUNT ON;
