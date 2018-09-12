@@ -1,5 +1,5 @@
 /*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="0"></info>*/
-CREATE PROCEDURE [dbo].[SpmProduct_Get]
+CREATE PROCEDURE [dbo].[SpmProduct_Get_uat1]
     @SystemId INT = NULL
     ,@FunctionId INT = NULL
     ,@IsActive BIT = NULL

@@ -58,7 +58,7 @@ BEGIN
 	   -- insert tag detail
         EXEC [dbo].[SpmTag_InsertDetail] @ProductId, @TagIds, @ObjectTypeId
 
-		EXEC @Data = [dbo].[fncGetDataForWriteLog] @ObjectId = @ProductId, @ObjectType = @ObjectTypeId
+		EXEC @Data = [dbo].[fncGetDataForWriteLog_xtest] @ObjectId = @ProductId, @ObjectType = @ObjectTypeId
 		EXEC dbo.SpmLog_Insert @UserId = @CreatedBy, @SpName = 'SpmProduct_Insert', @ObjectId = @ProductId, @ObjectTypeId = @ObjectTypeId, @Data = @Data, @OldData = NULL
 		COMMIT
     END TRY
