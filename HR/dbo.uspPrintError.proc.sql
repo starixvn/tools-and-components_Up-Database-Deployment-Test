@@ -7,6 +7,14 @@ GO
 -- it will return without printing any error information.
 ALTER PROCEDURE	dbo.uspPrintError
 AS
+/*
+Created: 20180911@Vivian
+Original: 
+
+Revisions:  
+	- 20180911@Vivian: test
+Param's Explanation:
+*/
 BEGIN;
 	SET NOCOUNT ON;
 

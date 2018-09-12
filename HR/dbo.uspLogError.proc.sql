@@ -9,6 +9,14 @@ GO
 ALTER PROCEDURE	dbo.uspLogError
 					@ErrorLogID		INT		= 0		OUTPUT	-- contains the ErrorLogID of the row inserted
 AS															-- by uspLogError in the ErrorLog table
+/*
+Created: 20180911@Vivian
+Original: 
+
+Revisions:  
+	- 20180911@Vivian: test
+Param's Explanation:
+*/
 BEGIN
 	SET NOCOUNT ON;
 
