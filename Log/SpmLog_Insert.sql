@@ -55,6 +55,9 @@ END
 GRANT EXECUTE ON [dbo].[SpmLog_Insert] TO [bodbAdminNet]
 GO
 
+GRANT VIEW DEFINITION ON [dbo].[SpmLog_Insert] TO [vnteam]
+GO
+
 GO
 
 
