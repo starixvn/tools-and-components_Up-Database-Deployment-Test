@@ -1,4 +1,10 @@
 /*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="1"></info>*/
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
 CREATE PROCEDURE [dbo].[SpmLog_Insert]
 	@UserId INT, 
 	@SpName VARCHAR(50), 
@@ -46,6 +52,8 @@ BEGIN
 	
 END
 
+GRANT EXECUTE ON [dbo].[SpmLog_Insert] TO [bodbAdminNet]
+GO
 
 GO
 
