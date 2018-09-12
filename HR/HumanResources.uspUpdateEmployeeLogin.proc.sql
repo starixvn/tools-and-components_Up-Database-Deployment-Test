@@ -10,6 +10,14 @@ ALTER PROCEDURE	HumanResources.uspUpdateEmployeeLogin
 					,	@CurrentFlag		dbo.Flag
 WITH EXECUTE AS CALLER
 AS
+/*
+Created: 20180911@Vivian
+Original: 
+
+Revisions:  
+	- 20180911@Vivian: test
+Param's Explanation:
+*/
 BEGIN;
 	SET NOCOUNT ON;
 
