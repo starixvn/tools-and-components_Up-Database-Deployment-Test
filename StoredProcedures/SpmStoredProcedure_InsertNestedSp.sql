@@ -24,7 +24,7 @@ BEGIN
 	CREATE TABLE #NestedSps(NestedSpId INT)
 
 	INSERT INTO #NestedSps
-	SELECT val FROM dbo.fnc_strSplit(@NestedSps,',')
+	SELECT val FROM dbo.fnc_strSplit_xtest(@NestedSps,',')
 	
 	--Delete old Nested Sp
 	DELETE spre

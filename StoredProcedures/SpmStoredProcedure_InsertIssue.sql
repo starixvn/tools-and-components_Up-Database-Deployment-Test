@@ -59,7 +59,7 @@ BEGIN
 	FROM dbo.SpmSpIssue AS spi WITH (NOLOCK)
 	INNER JOIN #Issues AS iss ON spi.IssueId = iss.IssueId AND spi.StoredProcedureId = @StoredProcedureId
 
-	INSERT INTO dbo.SpmSpIssue(StoredProcedureId, IssueId, DeveloperId, ActionName, VersionId, [Status], [Description],ModifiedBy,ModifiedDate)
+	INSERT INTO dbo.SpmSpIssue_xtest(StoredProcedureId, IssueId, DeveloperId, ActionName, VersionId, [Status], [Description],ModifiedBy,ModifiedDate)
 	SELECT @StoredProcedureId, iss.IssueId, iss.DeveloperId, iss.ActionName, iss.VersionId, iss.[Status], iss.[Description],@ModifiedBy, GETDATE()
 	FROM #Issues AS iss
 
