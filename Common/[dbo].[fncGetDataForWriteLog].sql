@@ -1,5 +1,5 @@
 /*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="1" isNested="1"></info>*/
-CREATE FUNCTION [dbo].[fncGetDataForWriteLog]
+ALTER FUNCTION [dbo].[fncGetDataForWriteLog]
 (
 	@ObjectId INT,
 	@ObjectType INT
