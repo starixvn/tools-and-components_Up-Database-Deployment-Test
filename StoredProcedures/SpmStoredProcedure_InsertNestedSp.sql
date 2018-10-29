@@ -1,4 +1,4 @@
-/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0" isNested="1"></info>*/
+/*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet,undefined" viewers="vnteam" isFunction="0" isNested="1"></info>*/
 CREATE PROCEDURE [dbo].[SpmStoredProcedure_InsertNestedSp]
 	@StoredProcedureId INT
 	,@NestedSps NVARCHAR(500) = NULL
