@@ -26,12 +26,12 @@ CREATE PROCEDURE [dbo].[SpmStoredProcedure_Insert]
 	,@ErrMsg				NVARCHAR(200) = '' OUTPUT
 AS
 /*
-Created: 20150420@Quinn.Vo
+Created: draco.nguyen
 Task: Insert stored procedure.
 DB: SPM
-Original: 
+Original:
 
-Revisions:  
+Revisions:
 	- 20180911@Larry: test
 Param's Explanation:
 - @IssueIds: <ROOT>
@@ -50,10 +50,10 @@ BEGIN
 	DECLARE @Data VARCHAR(MAX)
 	DECLARE @ObjectTypeId INT = 8
 
-	IF(EXISTS(SELECT 1 FROM dbo.SpmStoredProcedure WITH (NOLOCK) 
+	IF(EXISTS(SELECT 1 FROM dbo.SpmStoredProcedure WITH (NOLOCK)
 	   WHERE Name = @Name AND AliasServerId = @AliasServerId AND DatabaseId = @DatabaseId AND IsDeleted = 0))
 	BEGIN
-	   SELECT @ErrCode = 1, 
+	   SELECT @ErrCode = 1,
 		  @ErrMsg = 'Stored Procedure already exists.'
 	   RETURN
 	END
@@ -88,7 +88,7 @@ BEGIN
 	   )
 
 	   SELECT @StoredProcedureId = CAST(SCOPE_IDENTITY() AS INT)
-		
+
 	   EXECUTE [dbo].[SpmStoredProcedure_InsertIssue] @StoredProcedureId, @Issues, @CreatedBy
 
 	   EXECUTE [dbo].[SpmStoredProcedure_InsertNestedSp] @StoredProcedureId, @NestedSps
@@ -100,7 +100,7 @@ BEGIN
 	   EXEC @Data = [dbo].[fncGetDataForWriteLog] @ObjectId = @StoredProcedureId, @ObjectType = @ObjectTypeId
 
 	   EXEC dbo.SpmLog_Insert @UserId = @CreatedBy, @SpName = 'SpmStoredProcedure_Insert', @ObjectId = @StoredProcedureId, @ObjectTypeId = @ObjectTypeId, @Data = @Data, @OldData = NULL
-		
+
 	   COMMIT
 	END TRY
 	BEGIN CATCH
