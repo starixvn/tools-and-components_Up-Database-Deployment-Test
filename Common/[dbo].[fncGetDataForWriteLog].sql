@@ -6,6 +6,10 @@ CREATE FUNCTION [dbo].[fncGetDataForWriteLog]
 )
 RETURNS VARCHAR(MAX)
 AS
+/*
+	Revisions:  
+	- 20180911@Larry: test
+*/
 BEGIN
     DECLARE @Data VARCHAR(MAX), @Tags VARCHAR(500), @EnvironmentIdsOld VARCHAR(50), @NestedSp VARCHAR(MAX)
 	SELECT @Tags = '', @NestedSp ='', @EnvironmentIdsOld = ''
