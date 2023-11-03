@@ -1,8 +1,10 @@
 /*<info serverAlias="DBCHECK-CheckResultDB"></info>*/
- /*
+/*
 	Created: 20200505@Eden
 	Task: Create table Dep_PTConfig [Redmine:#132253]	
 	DB: DBCHECK/CheckResultDB
+	Revisions:
+	- 20231103@Larry: Test
 */
 USE CheckResultDB
 GO
