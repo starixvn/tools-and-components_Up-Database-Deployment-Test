@@ -5,12 +5,12 @@ CREATE PROCEDURE [dbo].[SpmAliasServer_Get]
 	@IsActive BIT=0 
 AS
 /*
-Created: 20150318@Josh.Phan
+Created: 20231103@Larry.Tran
 Task: Get Alias Server.
 DB: SPM
 Original: 
 
-Revisions:  
+Revisions:
 Param's Explanation:
 
 */
