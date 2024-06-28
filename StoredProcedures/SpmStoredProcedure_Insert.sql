@@ -56,12 +56,12 @@ BEGIN
 	   SELECT @ErrCode = 1,
 		  @ErrMsg = 'Stored Procedure already exists.'
 	   RETURN
-	END
+	
 
 	SET XACT_ABORT ON
 	BEGIN TRAN
 	BEGIN TRY
-	   INSERT INTO dbo.SpmStoredProcedure(
+	   INSERT INTO dbo.SpmStoredProcedure1(
 		  Name,
 		  AliasServerId,
 		  DatabaseId,
