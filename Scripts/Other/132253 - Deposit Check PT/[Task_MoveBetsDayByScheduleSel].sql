@@ -20,7 +20,7 @@ AS
   20180626@Harris: #97040  Modify for WC2018 v3
   20180709@Harris: #97040  Modify for WC2018 v4
   20200330@Gary: #131466  Skip move bet on 20200330 (Tuesday morning)
-  20200624@Larry: #136338  Move bet 2 days on 20200624 (Thursday morning)
+  20240701@Larry: #136338  Move bet 2 days on 20200624 (Thursday morning)
  
 */  
 

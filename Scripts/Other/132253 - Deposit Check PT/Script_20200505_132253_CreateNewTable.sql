@@ -4,7 +4,7 @@
 	Task: Create table Dep_PTConfig [Redmine:#132253]	
 	DB: DBCHECK/CheckResultDB
 	Revisions:
-	- 20231103@Larry: Test
+	- 20240701@Larry: Test
 */
 USE CheckResultDB
 GO

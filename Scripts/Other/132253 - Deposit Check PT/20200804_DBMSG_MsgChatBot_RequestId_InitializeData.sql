@@ -4,6 +4,9 @@
 	Created: 20200804@Percy
 	DB: DBMSG.bodb_Message
 	Task: Initialize data for new column RequestId
+	
+	Revisions:
+	20240701@Larry: test 
 */
 
 USE bodb_Message
