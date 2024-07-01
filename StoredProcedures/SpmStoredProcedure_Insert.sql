@@ -56,7 +56,7 @@ BEGIN
 	   SELECT @ErrCode = 1,
 		  @ErrMsg = 'Stored Procedure already exists.'
 	   RETURN
-	
+	END
 
 	SET XACT_ABORT ON
 	BEGIN TRAN
