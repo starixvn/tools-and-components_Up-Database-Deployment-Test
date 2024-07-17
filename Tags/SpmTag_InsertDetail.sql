@@ -5,13 +5,13 @@ ALTER PROCEDURE [dbo].[SpmTag_InsertDetail]
     ,@Type TINYINT
 AS
 /*
-Created: 20190813@Larry.Tran
+Created: 20240717@Larry.Tran
 Task: Insert stored procedure function.
 DB: SPM
 Original: 
 
 Revisions: 
-    - 20180911@Larry: Changed the way to insert/update SpmTagDetail
+    - 20240717@Larry: Changed the way to insert/update SpmTagDetail
 Param's Explanation:
     @Type:  5 - System
             6 - Product
