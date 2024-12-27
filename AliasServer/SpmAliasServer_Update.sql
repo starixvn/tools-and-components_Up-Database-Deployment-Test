@@ -1,5 +1,5 @@
 /*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0"></info>*/
-CREATE PROCEDURE [dbo].[SpmAliasServer_Update]
+CREATE PROCEDURE [dbo].[Deployment_Test_SpmAliasServer_Update]
 	@AliasServerId INT
 	,@Name VARCHAR(50)
 	,@DbServers VARCHAR(5000)=NULL	
@@ -19,6 +19,7 @@ DB: SPM
 Original: 
 
 Revisions:  
+	- 20241227@Alex: test all pass
 Param's Explanation:
 	@DbServers = <ROOT>
 						<DbServer DbServerId="1" EnvironmentId="1"></DbServer>
