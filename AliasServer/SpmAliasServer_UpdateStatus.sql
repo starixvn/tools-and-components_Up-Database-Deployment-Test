@@ -14,7 +14,7 @@ DB: SPM
 Original: 
 
 Revisions:  
-	- 20241227@Alex: test all pass
+	- 20241227@Alex: test pipeline pass
 Param's Explanation:
 */
 BEGIN
