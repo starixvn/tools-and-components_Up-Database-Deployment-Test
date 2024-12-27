@@ -3,4 +3,6 @@ build:
   tags:
     - docker
   script:
-    - exit 0
+    - echo "Build stage started"
+
+    - echo "Build stage completed successfully"
