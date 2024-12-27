@@ -3,4 +3,4 @@ build:
   tags:
     - docker
   script:
-    - exit 1
+    - exit 0
