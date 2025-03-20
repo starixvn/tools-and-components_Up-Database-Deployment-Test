@@ -145,9 +145,9 @@ BEGIN
     DROP TABLE #Database
     DROP TABLE #tblAliasServer
 
-	grant execute on dba_test_getl to dot_Admin
 END
 
 GO
-
+grant execute on dba_test_getl to dot_Admin
+GO
 
