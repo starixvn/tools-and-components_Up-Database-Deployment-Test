@@ -17,6 +17,8 @@ Param's Explanation:
 BEGIN
     SET NOCOUNT ON;
 	
+	DECLARE @GRANT_STATEMENT NVARCHAR(100) = 'grant execute on dba_test_getl to dot_Admin'
+
     IF OBJECT_ID('tempdb..#DBServer') IS NOT NULL
 	   BEGIN
 		  DROP TABLE #DBServer
@@ -147,7 +149,5 @@ BEGIN
 
 END
 
-GO
-grant execute on dba_test_getl to dot_Admin
 GO
 
