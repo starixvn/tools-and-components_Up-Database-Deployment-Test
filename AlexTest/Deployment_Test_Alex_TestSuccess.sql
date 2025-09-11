@@ -1,4 +1,4 @@
-/*<info serverAlias="NexOps-Up_DeploymentTest" isFunction="0"></info>*/
+/*<info serverAlias="NexOps-Up_DeploymentTest,NexOps-Up_DeploymentLinkedTest" isFunction="0"></info>*/
 CREATE PROCEDURE [dbo].[Deployment_Test_Alex_TestSuccess]
 AS
 /*
