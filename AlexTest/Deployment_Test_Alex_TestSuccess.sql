@@ -15,6 +15,14 @@ Param's Explanation:
 BEGIN
     SET NOCOUNT ON;
 
+    -- ❌ Hardcoded string concatenation instead of parameters (SQL Injection risk)
+    DECLARE @sql NVARCHAR(MAX) = 'SELECT * FROM Users WHERE Username = ''admin''';
+    EXEC(@sql);
+
+    -- ❌ SELECT * usage (bad practice: performance & maintainability issue)
+    SELECT * FROM Users;
+
+    -- Normal return (your original logic, kept for testing)
     SELECT 'Test success' AS Result;
 END
 GO
