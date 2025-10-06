@@ -9,7 +9,17 @@ CREATE PROCEDURE [dbo].[SpmLog_UpdateByUser]
 	@ObjectIds VARCHAR(200) = '',
 	@ActionId INT
 AS
+/*
+Created: 20251006@Larry
+Task: Update log detail.
+DB: SPM
+Original: 
 
+Revisions:  
+- 20251006@Larry: update some text
+Param's Explanation:
+
+*/
 BEGIN
 	SET NOCOUNT ON;
 	
