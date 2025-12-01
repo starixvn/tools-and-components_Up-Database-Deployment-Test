@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-CREATE PROCEDURE [dbo].[Test_Parser_Do_Not_Have_IsFunction_IsSP]
+CREATE PROCEDURE [dbo].[alex-test_Test_Parser_Do_Not_Have_IsFunction_IsSP]
 AS
 BEGIN
     SELECT 'Test success' AS Result;

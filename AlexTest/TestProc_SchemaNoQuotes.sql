@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-CREATE PROCEDURE dbo.TestProc1
+CREATE PROCEDURE dbo.alex-test_TestProc1
 AS
 BEGIN
     SELECT 'OK1';

@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-CREATE PROCEDURE `mydb`.`proc-test-3`
+CREATE PROCEDURE `mydb`.`alex-test_proc-test-3`
 AS
 BEGIN
     SELECT 'OK3';

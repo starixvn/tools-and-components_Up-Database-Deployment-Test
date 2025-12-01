@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-CREATE FUNCTION fnTest5()
+CREATE FUNCTION alex-test_fnTest5()
 RETURNS INT
 AS
 BEGIN

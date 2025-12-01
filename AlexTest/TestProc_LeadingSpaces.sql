@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-      CREATE PROC LeadingSpacesProc13
+CREATE PROC alex-test_LeadingSpacesProc13
 AS
 BEGIN
     SELECT 'OK13';

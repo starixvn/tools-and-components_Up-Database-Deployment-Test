@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-CREATE PROC TestProc2
+CREATE PROC alex-test_TestProc2
 AS
 BEGIN
     SELECT 'OK2';

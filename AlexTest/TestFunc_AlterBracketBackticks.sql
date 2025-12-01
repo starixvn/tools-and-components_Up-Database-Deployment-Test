@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-ALTER FUNCTION [dbo].`Func12`()
+ALTER FUNCTION [dbo].`alex-test_Func12`()
 RETURNS INT
 AS
 BEGIN

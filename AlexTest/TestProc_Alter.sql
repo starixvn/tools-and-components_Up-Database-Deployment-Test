@@ -10,7 +10,7 @@ Revisions:
 Param's Explanation:
 None
 */
-ALTER PROCEDURE dbo.AlterProc7
+ALTER PROCEDURE dbo.alex-test_AlterProc7
 AS
 BEGIN
     SELECT 'OK7';
